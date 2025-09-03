@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav style={{ padding: '10px', backgroundColor: 'navy', color: 'white' }}>
+    <nav style={{ display: 'flex', justifyContent: 'space-around', padding: '10px', backgroundColor: 'navy', color: 'white' }}>
       <Link to="/" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Home</Link>
       <Link to="/about" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>About</Link>
       <Link to="/services" style={{ margin: '0 10px', color: 'white', textDecoration: 'none' }}>Services</Link>
